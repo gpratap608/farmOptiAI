@@ -1,0 +1,12 @@
+
+.body{
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: max-content ;
+  gap: 0rem;
+}
+@media (max-width:760px){
+  .body{
+    grid-template-columns: 100%;
+  }
+}
