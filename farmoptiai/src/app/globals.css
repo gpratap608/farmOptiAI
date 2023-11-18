@@ -5,11 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: cursive;
 }
-
 a {
   text-decoration: none;
 }
@@ -25,6 +26,8 @@ li {
   padding: 20px;
   background-color: #A6CF98;
   color: #000;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-links a {
