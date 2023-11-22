@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 const HomePage = () => {
   return (
     <div className={styles.home}>
-      <div className={styles.homeConatiner}>
+      
         <div className={styles.homeContent}>
           <h1 className={styles.Typewriter}> 
             <Typewriter
@@ -17,7 +17,8 @@ const HomePage = () => {
               }}
             />
           </h1>
-          <p className={styles.paragraph}> Revolutionize your farming experience with our cutting-edge Farming Web App. Streamline operations, monitor crop health, and manage resources efficiently. Access real-time data, weather forecasts, and expert insights at your fingertips. Increase productivity and make informed decisions with our user-friendly interface. Elevate your farming practices with the power of technology. </p>
+          <div className={styles.paragraph}><p> Revolutionize your farming experience with our cutting-edge Farming Web App. Streamline operations, monitor crop health, and manage resources efficiently. Access real-time data, weather forecasts, and expert insights at your fingertips. Increase productivity and make informed decisions with our user-friendly interface. Elevate your farming practices with the power of technology. </p>
+           </div>   
         </div>
         <div className={styles.homeContent}>
             <img
@@ -26,7 +27,7 @@ const HomePage = () => {
             />
         </div>
       </div>
-    </div>
+  
   )
 }
 
