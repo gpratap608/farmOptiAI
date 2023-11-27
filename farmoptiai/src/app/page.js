@@ -4,6 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import HomePage from '@/components/HomePage'
+import About from '@/components/About'
 export default function Home() {
   useEffect(() => {
     AOS.init({
@@ -15,7 +16,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       {/* <h1 data-aos='fade-up'> HOME </h1> */}
-      <div> <HomePage/> </div>
+      <div id='home'> <HomePage/> </div>
+      <div id='about'> <About/>  </div>
     </main>
   )
 }
