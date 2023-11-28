@@ -49,8 +49,9 @@
 
 .Typewriter{
   font-size: 2.5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: lighter;
+  font-style: italic;
   font-style: oblique;
   justify-self: center;
   align-self: flex-start;
@@ -84,8 +85,9 @@
 }
 .heading{
   margin: 1rem;
-  font-family:"Gabriola", Georgia,sans-serif;
-  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-style: italic;
 }
 @media screen and (max-width: 790px){
   .about{

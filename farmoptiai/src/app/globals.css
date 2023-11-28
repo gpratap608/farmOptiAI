@@ -1,16 +1,17 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: cursive;
 }
+
 a {
   text-decoration: none;
 }
@@ -18,6 +19,7 @@ a {
 li {
   list-style: none;
 }
+
 /* NAVBAR STYLING STARTS */
 .navbar {
   display: flex;
@@ -39,18 +41,22 @@ li {
 /* LOGO */
 .logo {
   font-size: 32px;
-  font-family:"Gabriola", Georgia,sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-style: italic;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-@media (max-width:790px){
-  .logo{
-        font-size: 20px;
+
+@media (max-width:790px) {
+  .logo {
+    font-size: 20px;
   }
 }
+
 /* NAVBAR MENU */
 .menu {
   display: flex;
@@ -70,19 +76,20 @@ li {
 
 /* DROPDOWN MENU */
 .services {
-  position: relative; 
+  position: relative;
 }
 
 .dropdown {
   background-color: #A6CF98;
   padding: 1em 0;
-  position: absolute; /*WITH RESPECT TO PARENT*/
+  position: absolute;
+  /*WITH RESPECT TO PARENT*/
   display: none;
   border-radius: 8px;
   top: 35px;
 }
 
-.dropdown li + li {
+.dropdown li+li {
   margin-top: 10px;
 }
 
@@ -99,13 +106,14 @@ li {
 .services:hover .dropdown {
   display: block;
 }
+
 /* RESPONSIVE NAVBAR MENU STARTS */
 
 /* CHECKBOX HACK */
 
 input[type=checkbox] {
   display: none;
-} 
+}
 
 /* HAMBURGER MENU */
 .hamburger {
@@ -116,10 +124,10 @@ input[type=checkbox] {
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
- .menu {
-    display:none;
+  .menu {
+    display: none;
     position: absolute;
-    background-color:#A6CF98;
+    background-color: #A6CF98;
     right: 0;
     left: 0;
     text-align: center;
@@ -128,15 +136,15 @@ input[type=checkbox] {
 
   .menu li:hover {
     display: inline-block;
-    background-color:#A6CF98;
+    background-color: #A6CF98;
     transition: 0.3s ease;
   }
 
-  .menu li + li {
+  .menu li+li {
     margin-top: 12px;
   }
 
-  input[type=checkbox]:checked ~ .menu {
+  input[type=checkbox]:checked~.menu {
     display: block;
   }
 
@@ -154,60 +162,71 @@ input[type=checkbox] {
     background-color: #A6CF98;
   }
 }
-.logoImage{
+
+.logoImage {
   border-radius: 360px;
   height: 30px;
   width: 30px;
   margin: 1rem;
 }
+
 /* footer styling */
-.footer{
-  background-image: linear-gradient(to bottom,#ffffff);
+.footer {
+  background-image: linear-gradient(to bottom, #ffffff);
   width: 100%;
   height: fit-content;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
-.linkText{
+
+.linkText {
   text-decoration: none;
   color: #000;
   margin: 0.5rem;
-  font-family: "gabriola", Georgia,sans-serif;
-  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-style: italic;
   width: fit-content;
 }
-.footerImage{
+
+.footerImage {
   width: 100%;
   object-fit: cover;
   /* filter: blur(3px); */
 }
-.linkTextpoint{
+
+.linkTextpoint {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   margin-left: 1rem;
 }
-.linkTextpoints{
+
+.linkTextpoints {
   color: #000;
   margin: 0.5rem;
-  font-family:"gabriola", Georgia,sans-serif;
-  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-style: italic;
   width: fit-content;
-  list-style:disc;
+  list-style: disc;
 }
-.footerContainer{
+
+.footerContainer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
-.footerContent{
+
+.footerContent {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
+
 @media (max-width:768px) {
-  .footerContainer{
+  .footerContainer {
     flex-direction: column;
   }
 }
