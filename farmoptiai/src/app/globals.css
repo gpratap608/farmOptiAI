@@ -46,7 +46,11 @@ li {
   align-items: center;
   justify-content: center;
 }
-
+@media (max-width:790px){
+  .logo{
+        font-size: 20px;
+  }
+}
 /* NAVBAR MENU */
 .menu {
   display: flex;
