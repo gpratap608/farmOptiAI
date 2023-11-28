@@ -84,7 +84,7 @@
 }
 .heading{
   margin: 1rem;
-  font-family:Gabriola;
+  font-family:Gabriola,sans-serif;
   font-weight: bold;
 }
 @media screen and (max-width: 790px){

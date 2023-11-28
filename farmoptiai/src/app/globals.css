@@ -38,7 +38,7 @@ li {
 /* LOGO */
 .logo {
   font-size: 32px;
-  font-family:Gabriola;
+  font-family:Gabriola,sans-serif;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -186,7 +186,7 @@ input[type=checkbox] {
 .linkTextpoints{
   color: #000;
   margin: 0.5rem;
-  font-family: gabriola;
+  font-family: gabriola,sans-serif;
   font-weight: bold;
   width: fit-content;
   list-style:disc;
