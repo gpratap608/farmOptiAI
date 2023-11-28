@@ -16,7 +16,7 @@
   width: 100%;
   height: fit-content;
   background-color: #A6CF98;
-  margin-top: 6rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,7 @@
 }
 .heading{
   margin: 1rem;
-  font-family:Gabriola,sans-serif;
+  font-family:"Gabriola", Georgia,sans-serif;
   font-weight: bold;
 }
 @media screen and (max-width: 790px){

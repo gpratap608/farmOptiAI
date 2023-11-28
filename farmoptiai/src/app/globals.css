@@ -28,6 +28,7 @@ li {
   color: #000;
   position: fixed;
   width: 100%;
+  height: 3rem;
   z-index: 999;
 }
 
@@ -38,7 +39,7 @@ li {
 /* LOGO */
 .logo {
   font-size: 32px;
-  font-family:Gabriola,sans-serif;
+  font-family:"Gabriola", Georgia,sans-serif;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -168,7 +169,7 @@ input[type=checkbox] {
   text-decoration: none;
   color: #000;
   margin: 0.5rem;
-  font-family: gabriola;
+  font-family: "gabriola", Georgia,sans-serif;
   font-weight: bold;
   width: fit-content;
 }
@@ -186,7 +187,7 @@ input[type=checkbox] {
 .linkTextpoints{
   color: #000;
   margin: 0.5rem;
-  font-family: gabriola,sans-serif;
+  font-family:"gabriola", Georgia,sans-serif;
   font-weight: bold;
   width: fit-content;
   list-style:disc;

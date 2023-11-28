@@ -19,7 +19,7 @@ const Footer = () => {
         <div className='footerContainer'>
             <div className='footerContent'>
                 <Link href='#about'><h3 className='linkText'> About Us </h3></Link>
-                <ul className='linkTextpoint' data-aos='fade-left'>
+                <ul className='linkTextpoint' >
                     <li className='linkTextpoints'> Technical Learners  </li>
                     <li className='linkTextpoints'> On a Misson to Empower Farmers  </li>
                     <li className='linkTextpoints'> Providing Assist  </li>
@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div className='footerContent'>    
                 <Link href='#services'><h3 className='linkText'> Services </h3></Link>
-                <ul className='linkTextpoint' data-aos='fade-left'>
+                <ul className='linkTextpoint' >
                     <li className='linkTextpoints'> Farming Assistant  </li>
                     <li className='linkTextpoints'> Assists in New Farming Methods  </li>
                     <li className='linkTextpoints'> Smart Support  </li>
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             <div className='footerContent'>    
                 <Link href='#services'><h3 className='linkText'> Copyright </h3></Link>
-                <ul className='linkTextpoint' data-aos='fade-left'>
+                <ul className='linkTextpoint'>
                     <li className='linkTextpoints'> FarmOptiAI  </li>
                     <li className='linkTextpoints'> @{date}  </li>
                 </ul>
