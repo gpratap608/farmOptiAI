@@ -14,7 +14,7 @@ const Navbar = () => {
                 src='/icon.jpg'
             />
             <h3>FarmOptiAI</h3>
-            </div>
+        </div>
 
         {/* NAVIGATION MENU */}
         <ul className="nav-links">

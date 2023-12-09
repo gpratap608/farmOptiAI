@@ -14,7 +14,7 @@
   grid-row: 1;
   grid-column: 1 ;
   width: 100%;
-  height: fit-content;
+  height:40rem;
   background-color: #A6CF98;
   margin-top: 3rem;
   display: flex;
