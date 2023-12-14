@@ -161,6 +161,20 @@
   height: fit-content;
   justify-content: center;
 }
+.inputResponse{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 8px 8px 8px 8px;
+  width: 100%;
+  color: #000;
+  margin: 0.5rem;
+  background-color: #ffffff;
+  height: fit-content;
+  justify-content: flex-start;
+}
 
 .input :active{
   border: none;
