@@ -54,11 +54,11 @@ const Services = () => {
             setCropNo(13)
         }
         try {
-            const response_ML_urea = await axios.get(`http://localhost:8080/urea/${cropNo}/${landArea}`)
+            const response_ML_urea = await axios.get(`http://192.168.19.71:8080/urea/${cropNo}/${landArea}`)
             setUrea(Number(response_ML_urea.data.prediction))
-            const response_ML_phosphate = await axios.get(`http://localhost:8080/phosphate/${cropNo}/${landArea}`)
+            const response_ML_phosphate = await axios.get(`http://192.168.19.71:8080/phosphate/${cropNo}/${landArea}`)
             setPhosphate(Number(response_ML_phosphate.data.prediction))
-            const response_ML_potash = await axios.get(`http://localhost:8080/potash/${cropNo}/${landArea}`)
+            const response_ML_potash = await axios.get(`http://192.168.19.71:8080/potash/${cropNo}/${landArea}`)
             setPotash(Number(response_ML_potash.data.prediction))
             console.log('ML Response Urea',response_ML_urea.data)
             console.log('ML Response Phosphate',response_ML_phosphate.data) 
