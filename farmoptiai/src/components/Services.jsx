@@ -71,7 +71,7 @@ const Services = () => {
                 setDay(177)
             } else {
                 setCondition("To cultivate healthy sugarcane, choose disease-resistant varieties suitable for your region. Ensure well-drained, fertile soil with a pH between 5.5 and 7.5. Provide adequate irrigation, especially during dry periods. Plant cane buds at the right depth, and practice timely weed control. Monitor for pests and diseases, and follow recommended fertilization practices.")
-                setDay(548)
+                setDay(370)
             }
 
 
