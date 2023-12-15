@@ -17,12 +17,8 @@ const Services = () => {
 
     const dataShow = async (e) => {
         try {
-            e.preventDefault(); // Prevent the default form submission behavior
-    
-            // Assuming areaName is defined somewhere in your code
+            e.preventDefault(); 
             console.log("areaName:", areaName);
-    
-            // Define the options for the Axios request
             const options = {
                 method: 'GET',
                 url: `https://open-weather13.p.rapidapi.com/city/${areaName}`,
@@ -31,18 +27,12 @@ const Services = () => {
                     'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
                 }
             };
-    
-            // Log the options before making the request
-            console.log("Axios Options:", options);
-    
-            // Make the Axios request using the specified options
+            console.log("Axios Options:", options);        
             const response = await axios.request(options);
             console.log(response.name)
-            // Log the data from the response to the console
             setResponse(String(response.data.main.humidity))
             console.log("Response Data:", response.data.main);
         } catch (error) {
-            // Log any errors that occur during the request
             console.error("Error:", error);
         }
         
@@ -80,11 +70,6 @@ const Services = () => {
         }
     };
     
-    
-    // Assuming this function is connected to some event in your HTML
-    // For example, a form submission
-    // document.querySelector('your-form-selector').addEventListener('submit', dataShow);
-    
      return (
         <div>
             <div className={styles.services}>
@@ -115,8 +100,8 @@ const Services = () => {
                                     {condition}.
                                 </h2><br />
                                 <h2> You will Need <i>{urea*2.47105}</i> KGs UREA in whole season and <i>{((urea/day)*7)*2.47105}</i> KGs in a week </h2><br />
-                                {/* <h2> You will Need <i>{phosphate}</i> Kg PHOSPHATE in whole season and <i>{((phosphate/day)*7)*2.47105}</i> KGs in a week </h2><br />
-                                <h2> You will Need <i>{potash}</i> Kg POTASH in whole season and <i>{((potash/day)*7)*2.47105}</i> KGs in a week </h2><br /> */}
+                                <h2> You will Need <i>{phosphate}</i> Kg PHOSPHATE in whole season and <i>{((phosphate/day)*7)*2.47105}</i> KGs in a week </h2><br />
+                                <h2> You will Need <i>{potash}</i> Kg POTASH in whole season and <i>{((potash/day)*7)*2.47105}</i> KGs in a week </h2><br />
                             </div>
                         }
                     </form>
