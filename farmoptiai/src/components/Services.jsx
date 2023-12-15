@@ -92,16 +92,16 @@ const Services = () => {
                     <form className={styles.form} onSubmit={dataShow}>
                         <h1 className={styles.inputText}> Let us have Some Info </h1>
                         <p className={styles.inputText}> Give Us Some Information to Know the Dose of Chemicals To be Used </p>
-                        <input className={styles.input} type="text" placeholder='Enter Your Area' data-aos='fade-up' onChange={(e)=>setAreaName(e.target.value)}/>
-                            <select className={styles.input} name='Crop Name' data-aos='fade-up' onChange={(e)=>setCropName(e.target.value)}>
+                        <input className={styles.input} type="text" placeholder='Enter Your Area'  onChange={(e)=>setAreaName(e.target.value)}/>
+                            <select className={styles.input} name='Crop Name' onChange={(e)=>setCropName(e.target.value)}>
                                 <option value='default'> Select the Crop </option>
                                 <option value='wheat'> Wheat </option>
                                 <option value='rice'> Rice </option>
                                 <option value='sugarcane'> Sugarcane </option>
     
                             </select>
-                        <input className={styles.input} type="text" placeholder='Enter Size of Your Field in hectare' data-aos='fade-up' onChange={(e)=>setLandArea((e.target.value)*2.47105)}/>
-                        <button type='submit' className={styles.inputButton} data-aos='fade-up'> Go </button>
+                        <input className={styles.input} type="text" placeholder='Enter Size of Your Field in hectare'  onChange={(e)=>setLandArea((e.target.value)*2.47105)}/>
+                        <button type='submit' className={styles.inputButton} > Go </button>
                     </form>
                     </div>
                 </div>
