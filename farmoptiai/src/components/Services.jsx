@@ -115,8 +115,8 @@ const Services = () => {
                                     {condition}.
                                 </h2><br />
                                 <h2> You will Need <i>{urea}</i> Kg UREA in whole season and <i>{((urea/day)*7)*100}</i> grams in a week </h2><br />
-                                <h2> You will Need <i>{phosphate}</i> Kg PHOSPHATE in whole season and <i>{((phosphate/day)*7)*100}</i> grams in a week </h2><br />
-                                <h2> You will Need <i>{potash}</i> Kg POTASH in whole season and <i>{((potash/day)*7)*100}</i> grams in a week </h2><br />
+                                {/* <h2> You will Need <i>{phosphate}</i> Kg PHOSPHATE in whole season and <i>{((phosphate/day)*7)*100}</i> grams in a week </h2><br />
+                                <h2> You will Need <i>{potash}</i> Kg POTASH in whole season and <i>{((potash/day)*7)*100}</i> grams in a week </h2><br /> */}
                             </div>
                         }
                     </form>
