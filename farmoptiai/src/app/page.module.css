@@ -34,12 +34,12 @@
   .home{
     flex-direction: column;
     padding: 2rem;
-    margin-top: 10rem;
   }
   .homeContent{
     width: 100%;
     box-sizing: border-box;
     margin: 1rem;
+    margin-top: 10rem;
   }
   .homeimage{
     width: 200px;
