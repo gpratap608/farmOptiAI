@@ -114,9 +114,9 @@ const Services = () => {
                                     In, {areaName} humidity will be {response}, and here are Some tips <br />
                                     {condition}.
                                 </h2><br />
-                                <h2> You will Need <i>{urea*2.47105}</i> Kg UREA in whole season and <i>{(((urea/day)*7)*1000)*2.47105}</i> grams in a week </h2><br />
-                                {/* <h2> You will Need <i>{phosphate}</i> Kg PHOSPHATE in whole season and <i>{((phosphate/day)*7)*100}</i> grams in a week </h2><br />
-                                <h2> You will Need <i>{potash}</i> Kg POTASH in whole season and <i>{((potash/day)*7)*100}</i> grams in a week </h2><br /> */}
+                                <h2> You will Need <i>{urea*2.47105}</i> KGs UREA in whole season and <i>{((urea/day)*7)*2.47105}</i> KGs in a week </h2><br />
+                                {/* <h2> You will Need <i>{phosphate}</i> Kg PHOSPHATE in whole season and <i>{((phosphate/day)*7)*2.47105}</i> KGs in a week </h2><br />
+                                <h2> You will Need <i>{potash}</i> Kg POTASH in whole season and <i>{((potash/day)*7)*2.47105}</i> KGs in a week </h2><br /> */}
                             </div>
                         }
                     </form>
